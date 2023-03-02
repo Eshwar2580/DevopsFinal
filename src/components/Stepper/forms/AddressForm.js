@@ -45,6 +45,7 @@ const AddressForm = ({ handleNext }) => {
 
         // Validate country
         country: Yup.string()
+          .matches(/^[A-Za-z ]{3,30}$/,"Invalid Country")
           .max(20, "Must be 20 characters or less")
           .required("required"),
 
