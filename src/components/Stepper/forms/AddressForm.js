@@ -67,7 +67,7 @@ const AddressForm = ({ handleNext }) => {
 
             <Form className="checkout-form">
               <label htmlFor="country">Country </label>
-              <Field name="country" type="text" title="Enter valid Country" Pattern="[A-Za-z ]{3,30}" />
+              <Field name="country" type="text" title="Enter valid Country with only characters" Pattern="[A-Za-z ]{3,30}" />
               <ErrorMessage name="country">
                 {(msg) => <div style={{ color: "red" }}>{msg}</div>}
               </ErrorMessage>
