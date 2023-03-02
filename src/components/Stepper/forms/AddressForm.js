@@ -37,15 +37,15 @@ const AddressForm = ({ handleNext }) => {
 
         // Validate zipCode
         zipCode: Yup.string()
-          .length(5)
-          .max(99999, "Must be 99999 or less")
-          .min(1, "Must be at least 00001")
+          .length(6)
+          .max(999999, "Must be 999999 or less")
+          .min(1, "Must be at least 000001")
           .required("required")
-          .length(5),
+          .length(6),
 
         // Validate country
         country: Yup.string()
-          .max(20, "Must be 20 characters or less")
+          .max("Must be 20 characters or less")
           .required("required"),
 
         // //

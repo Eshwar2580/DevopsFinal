@@ -9,34 +9,34 @@ function Footer() {
         <div className="footer-content">
           <div className="footer-section about">
             <p className="footer-para">
-              Developer: <span className="my-name"> Junaid Qureshi</span>
+              Developer: <span className="my-name"> PINNU LOKESHWAR </span>
             </p>
 
             <div className="contact"></div>
             <div className="socials">
               <a
-                href="https://www.facebook.com/profile.php?id=100041078220896"
+                href="https://www.facebook.com"
                 target="_blank"
                 rel="noopener noreferrer"
               >
                 <i className="fab fa-facebook"></i>
               </a>
               <a
-                href="https://www.linkedin.com/in/junaid-qureshi-dvdvs/"
+                href="https://www.linkedin.com"
                 rel="noopener noreferrer"
                 target="_blank"
               >
                 <i className="fab fa-linkedin"></i>
               </a>
               <a
-                href="https://twitter.com/dsvdsv/"
+                href="https://twitter.com"
                 rel="noopener noreferrer"
                 target="_blank"
               >
                 <i className="fab fa-twitter"></i>
               </a>
               <a
-                href="https://github.com/developer-dsvdsv"
+                href="https://github.com"
                 rel="noopener noreferrer"
                 target="_blank"
               >
@@ -44,7 +44,7 @@ function Footer() {
               </a>
             </div>
             <p className="copyright">
-              Copyright&nbsp;&copy;&nbsp;Nsdvsdike Shoes Temdsvdvsdsvsplate
+              Copyright&nbsp;&copy;&nbsp;Nike Shoes template
             </p>
             <br />
           </div>
